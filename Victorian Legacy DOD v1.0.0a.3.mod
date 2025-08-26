@@ -1,0 +1,5 @@
+name = "Victorian Legacy DOD v1.0.0a.3"
+path = "mod/Victorian Legacy DOD v1.0.0a.3"
+user_dir = "Victorian Legacy DOD v1.0.0a.3"
+replace_path = "decisions"
+replace_path = "events"
