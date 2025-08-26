@@ -199,7 +199,7 @@ tier_2_focus =
 	
 	assimilation_bonus =
 	{
-		assimilation_rate = 4
+		assimilation_rate = 3.5
 		icon = 21
 		limit = {
 			owner = { 
@@ -489,7 +489,7 @@ tier_4_focus =
 	craftsmen_assimilation_bonus =
 	{
 		craftsmen = 0.20
-		assimilation_rate = 2
+		assimilation_rate = 1.75
 		outliner_show_as_percent = yes
 		icon = 43
 		limit = {
@@ -502,7 +502,7 @@ tier_4_focus =
 	soldier_assimilation_bonus =
 	{
 		soldiers = 0.20
-		assimilation_rate = 2
+		assimilation_rate = 1.75
 		outliner_show_as_percent = yes
 		icon = 44
 		limit = {

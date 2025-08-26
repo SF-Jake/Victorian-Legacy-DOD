@@ -1879,9 +1879,16 @@ assimilation_chance = {
 		}
 	}	
 
-	modifier = {
-		factor = 0.14
-		country = { has_country_flag = assimilation_idea }
+	group = {
+		modifier = {
+			factor = 1
+			country = { has_country_flag = assimilation_idea }
+		}
+		modifier = {
+			factor = -0.95
+			has_culture_core = no
+			country = { has_country_flag = assimilation_idea }
+		}	
 	}
 
 #EQUALITY NATIONAL VALUE BONUS - 50% more base assimilation rate for nations with the equality national value. (0.000198 + base)(new rate = 0.000594)

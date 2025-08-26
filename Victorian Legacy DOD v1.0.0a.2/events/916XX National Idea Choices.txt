@@ -220,7 +220,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+0.04 Assimilation Chance & +50% Rate"
+		name = "+1.0 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 1
@@ -449,7 +449,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+0.04 Assimilation Chance & +50% Rate"
+		name = "+1.0 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 1
@@ -677,7 +677,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+0.04 Assimilation Chance & +50% Rate"
+		name = "+1.0 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 1
@@ -905,7 +905,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+0.04 Assimilation Chance & +50% Rate"
+		name = "+1.0 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 1
@@ -1133,7 +1133,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+0.04 Assimilation Chance & +50% Rate"
+		name = "+1.0 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 1
@@ -1361,7 +1361,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+0.04 Assimilation Chance & +50% Rate"
+		name = "+1.0 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 1
@@ -1684,7 +1684,7 @@ country_event = {
 
 country_event = {
 	id = 91662
-	title = "+0.04 Assimilation Chance & +50% Rate"
+	title = "+1.0 Assimilation Chance & +50% Rate"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
