@@ -11,8 +11,8 @@ leader = {
 	picture = den_gen_frederikhessen
 	date = 1789.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.5
 }
 leader = {
@@ -20,8 +20,8 @@ leader = {
 	picture = den_gen_haxthausen
 	date = 1829.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -29,8 +29,8 @@ leader = {
 	picture = den_gen_scholten
 	date = 1829.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 
@@ -38,8 +38,8 @@ leader = {
 	name = "Olaf Rye"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 army = {

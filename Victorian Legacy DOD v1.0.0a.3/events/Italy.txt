@@ -1,0 +1,89 @@
+# Italian Saviour
+country_event = {
+
+	id = 598007
+	
+	is_triggered_only = yes
+
+	title = "EVTNAME598007"
+	desc = "EVTDESC598007"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA598007"
+
+		465 = {
+			secede_province = DUA
+			remove_core = SAR
+			remove_core = LOM
+			remove_core = ARI
+			remove_core = ITA
+			add_core = DUA
+			add_core = GNV
+		}
+		466 = {
+			secede_province = DUA
+			remove_core = SAR
+			remove_core = LOM
+			remove_core = ARI
+			remove_core = ITA
+			add_core = DUA
+			add_core = GNV
+		}
+		721 = {
+			secede_province = DUA
+			remove_core = SAR
+			remove_core = LOM
+			remove_core = ARI
+			remove_core = ITA
+			add_core = DUA
+			add_core = GNV
+			}
+		609  = {
+			secede_province = DUA
+			remove_core = SAR
+			remove_core = LOM
+			remove_core = ARI
+			remove_core = ITA
+			add_core = DUA
+			add_core = GNV
+			}	
+		change_tag = ITA	
+		add_accepted_culture = south_italian
+		any_country = {
+			limit = {
+				OR = {
+					primary_culture = north_italian
+					tag = PAP
+					tag = SRD
+				}
+				exists = yes
+				NOT = { tag = THIS }
+				NOT = { rank = 20 }
+				ai = yes
+			}
+			country_event = 598008
+		}
+		
+	}
+}
+
+# Italian Saviour - Reaction
+country_event = {
+
+	id = 598008
+	
+	is_triggered_only = yes
+
+	title = "EVTNAME598008"
+	desc = "EVTDESC598008"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA598008"			
+		FROM = {
+			inherit = THIS
+			prestige = 2
+		}	
+	}
+}

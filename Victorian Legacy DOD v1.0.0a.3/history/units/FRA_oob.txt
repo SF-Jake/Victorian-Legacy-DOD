@@ -72,8 +72,8 @@ leader = {
 	picture = fra_gen_drouet
 	date = 1803.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -81,8 +81,8 @@ leader = {
 	picture = fra_gen_clauzel
 	date = 1803.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -90,8 +90,8 @@ leader = {
 	picture = fra_gen_reille
 	date = 1807.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -99,8 +99,8 @@ leader = {
 	picture = fra_gen_harispe
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -108,8 +108,8 @@ leader = {
 	picture = fra_gen_dode
 	date = 1809.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -117,8 +117,8 @@ leader = {
 	picture = fra_adm_duperre
 	date = 1811.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -126,8 +126,8 @@ leader = {
 	picture = fra_gen_achard
 	date = 1823.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -135,8 +135,8 @@ leader = {
 	picture = fra_gen_castelanne
 	date = 1823.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -144,8 +144,8 @@ leader = {
 	picture = fra_gen_vaillant
 	date = 1832.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -153,32 +153,32 @@ leader = {
 	picture = fra_gen_magnan
 	date = 1835.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Thomas Bugeaud"
 	picture = fra_gen_bugeaud
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Louis Baraguey d'Hilliers"
 	picture = fra_gen_baraguey
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Charles Baudin"
 	picture = fra_adm_baudin
 	date = 1836.1.1 #1838
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 army = {

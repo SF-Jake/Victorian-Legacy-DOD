@@ -19,8 +19,8 @@ leader = {
 	picture = fra_gen_drouet
 	date = 1826.1.1
 	type = land
-	personality = defence_3.1
-	background = attack_4.1
+	personality = mor10_1
+	background = 4a3d_1
 	prestige = 0.3
 }
 army = {
@@ -221,6 +221,34 @@ army = {
 navy = {
 	name = "Catalan Navy"
 	location = 498
+	ship = {
+		name= "frigate"
+		type = frigate
+	}
+	ship = {
+		name= "frigate"
+		type = frigate
+	}
+	ship = {
+		name= "frigate"
+		type = frigate
+	}
+	ship = {
+		name= "frigate"
+		type = frigate
+	}
+	ship = {
+		name= "frigate"
+		type = frigate
+	}
+	ship = {
+		name= "frigate"
+		type = frigate
+	}
+	ship = {
+		name= "frigate"
+		type = frigate
+	}
 	ship = {
 		name= "frigate"
 		type = frigate

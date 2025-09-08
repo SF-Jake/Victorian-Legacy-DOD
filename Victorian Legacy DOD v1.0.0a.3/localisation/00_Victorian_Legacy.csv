@@ -392,3 +392,13 @@ ADA;Adamawa;;;;;;;;;;;;;x;
 ADA_ADJ;Adamawan;;;;;;;;;;;;;x;
 ADR;Adrar;;;;;;;;;;;;x
 ADR_ADJ;Mauritanian;;;;;;;;;;;;x
+EVTNAME598007;Avanti Italia!;;;;;;;;;;;;x
+EVTDESC598007;With the support of Paris we are able to usurp the Iron Throne.;;;;;;;;;;;;x
+EVTOPTA598007;Great!;;;;;;;;;;;;x
+EVTNAME598008;Our Motherland Calling;;;;;;;;;;;;x
+EVTDESC598008;The Duchy of Savoy demands our annexation.;;;;;;;;;;;;x
+EVTOPTA598008;We need to unite!;;;;;;;;;;;;x
+savoy_of_italy_title;Construct Italy;;;;;;;;;;;;x
+savoy_of_italy_desc;With the downfall of Aragon as a Great Power we have gained a very good possibility to fill the power vacuum in Italy through helping the Grand Duchy of Savoy to gain the Iron Crown.;;;;;;;;;;;;x
+meddle_in_italy_title;Announce our interest in Italia;;;;;;;;;;;;x
+meddle_in_italy_desc;With the final defeat of the House of Valois, we have gained enough  space to influence Italy.;;;;;;;;;;;;x

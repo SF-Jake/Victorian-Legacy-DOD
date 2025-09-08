@@ -279,8 +279,6 @@ rotary_kiln;Rotary Kiln;;;;;;;;;;;;;;
 rotary_kiln_desc;A rotary kiln is a pyroprocessing device used to raise materials to a high temperature (calcination) in a continuous process. The earliest successful rotary kilns were developed in Pennsylvania around 1890, and were about 1.5 m in diameter and 15 m in length. Such a kiln made about 20 tonnes of cement per day.;;;;;;;;;;;;;;
 starting_healthcare;;;;;;;;;;x;;;;
 beifaren;Han;;;;;;;;;;x;;;;
-north_german;North German;;;;;;;;;;x;;;;
-north_italian;Italian;;;;;;;;;;x;;;;
 PNJ;Sikh Empire;Pendjab;Pundschab;;Punjab;;;;;;;;;x;;;;
 PNJ_ADJ;Sikh Empire;Penjabi;Pundschabisch;;Panjab?;;;;;;;;x;;;;
 PNJ_conservative;Royal Faction;Faction royale;K?igsfraktion;;Facci? Real;;;;;;;;;x;;;;
@@ -3066,15 +3064,6 @@ TIM_communist;Hezb-e Tudeh-ye Iran o Turan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,
 TIM_fascist;Hezb-e Turki-ye Bozorg;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
 form_timurids_title;Form Timurids;;;;;;;;;;;;;
 form_timurids_desc; ;;;;;;;;;;;;;
-INC;Indochina;x
-INC_conservative;Royal Faction;Faction royale;Konigsfraktion;;Faccien Real;;;;;;;;;x;;;;
-INC_liberal;The Liberal Faction;Faction liberale;Die liberale Fraktion;;La Faccien Liberal;;;;;;;;;x;;;;
-INC_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La Faccien Nacionalista;;;;;;;;;x;;;;
-INC_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La Faccien Radical;;;;;;;;;x;;;;
-INC_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Facci?n Socialista;;;;;;;;;x;;;;
-INC_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Facci?n Comunista;;;;;;;;;x;;;;
-INC_fascist;Thailand;Thailande;Thailand;;Tailandia;;;;;;;;;x;;;;
-INC_ADJ;Indochinese;x
 education_reform_siam_title;Education Buff;;;;;;;;;;;;x
 education_reform_siam_desc;This will help you get the edge against the Great Powers of the world;;;;;;;;;;;;x
 annex_vietnam_siam_title;Declare on Vietnam;;;;;;;;;;;;x
