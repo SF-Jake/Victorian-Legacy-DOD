@@ -54,8 +54,7 @@ country_event = {
 			limit = {
 				OR = {
 					primary_culture = north_italian
-					tag = PAP
-					tag = SRD
+					NOT = { tag = PAP }
 				}
 				exists = yes
 				NOT = { tag = THIS }

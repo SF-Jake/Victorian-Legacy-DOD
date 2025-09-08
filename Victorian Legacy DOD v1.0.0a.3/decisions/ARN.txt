@@ -1,21 +1,25 @@
 political_decisions = {	
 		integrate_pope = {
 		potential = {
-			tag = ARN
+			OR = {
+				tag = ARN
+				tag = ITA
+			}
+			PAP = { exists = yes }
 			NOT = {has_country_flag = integrate_pope}
 		}
 		allow = {
 			state_n_government = 1
 			PAP = {
-								all_core = {
-									OR = {
-										owned_by = THIS
-										owner = {
-											vassal_of = THIS
-										}
-									}
-								} 
-							}
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				} 
+			}
 		}
 		effect = {
 			set_country_flag = integrate_pope
