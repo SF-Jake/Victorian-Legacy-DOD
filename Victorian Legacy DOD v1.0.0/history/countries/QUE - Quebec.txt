@@ -30,6 +30,9 @@ unemployment_subsidies = trinket_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+#New Reforms
+conscription = no_draft
+
 ruling_party = QUE_conservative
 upper_house = {
 	fascist = 0

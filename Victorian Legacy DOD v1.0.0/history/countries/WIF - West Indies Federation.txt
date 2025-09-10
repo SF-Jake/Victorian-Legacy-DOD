@@ -29,6 +29,9 @@ pensions = no_pensions
 
 school_reforms = no_schools
 
+#New Reforms
+conscription = no_draft
+
 ruling_party = WIF_liberal
 upper_house = {
 	fascist = 0

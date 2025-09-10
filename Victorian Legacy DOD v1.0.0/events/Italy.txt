@@ -11,7 +11,6 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA598007"
-
 		465 = {
 			secede_province = DUA
 			remove_core = SAR
@@ -38,7 +37,7 @@ country_event = {
 			remove_core = ITA
 			add_core = DUA
 			add_core = GNV
-			}
+		}
 		609  = {
 			secede_province = DUA
 			remove_core = SAR
@@ -47,15 +46,13 @@ country_event = {
 			remove_core = ITA
 			add_core = DUA
 			add_core = GNV
-			}	
+		}	
 		change_tag = ITA	
 		add_accepted_culture = south_italian
 		any_country = {
 			limit = {
-				OR = {
-					primary_culture = north_italian
-					NOT = { tag = PAP }
-				}
+				primary_culture = north_italian
+				NOT = { tag = PAP }
 				exists = yes
 				NOT = { tag = THIS }
 				NOT = { rank = 20 }
@@ -79,7 +76,13 @@ country_event = {
 	picture = "Administration"
 
 	option = {
-		name = "EVTOPTA598008"			
+		name = "EVTOPTA598008"
+		THIS = {
+			all_core = {
+				add_core = ITA
+				remove_core = THIS
+			}
+		}
 		FROM = {
 			inherit = THIS
 			prestige = 2

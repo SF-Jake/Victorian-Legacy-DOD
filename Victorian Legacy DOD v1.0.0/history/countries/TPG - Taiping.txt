@@ -43,6 +43,9 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+#New Reforms
+conscription = no_draft
+
 # Technologies
 no_standard = 1
 guild_based_production = 1

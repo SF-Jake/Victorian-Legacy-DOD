@@ -30,6 +30,9 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+#New Reforms
+conscription = no_draft
+
 ruling_party = GCO_liberal
 last_election = 1832.3.10
 upper_house = {

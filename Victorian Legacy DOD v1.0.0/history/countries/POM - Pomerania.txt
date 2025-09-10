@@ -27,6 +27,9 @@ unemployment_subsidies = low_subsidies
 pensions = good_pensions 
 school_reforms = no_schools
 
+#New Reforms
+conscription = no_draft
+
 ruling_party = NGF_liberal
 upper_house = {
 	fascist = 0

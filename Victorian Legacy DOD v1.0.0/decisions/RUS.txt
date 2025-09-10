@@ -73,6 +73,20 @@ political_decisions = {
 			change_tag = RUS
 		}
 	}
+	sack_novgorod = {
+		potential = {
+			tag = MUS
+			NOT = {has_country_flag = sack_novgorod}
+		}
+		allow = {
+			NOT = {year = 1840}
+			RUS_1003 = {controlled_by = THIS}
+		}	
+		effect = {
+			set_country_flag = sack_novgorod
+			NOV = {all_core = {change_controller = THIS}}
+		}
+	}
 	push_west ={
 		potential = {
 			tag = RUS

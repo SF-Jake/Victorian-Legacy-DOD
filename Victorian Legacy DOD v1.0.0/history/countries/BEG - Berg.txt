@@ -27,6 +27,9 @@ unemployment_subsidies = low_subsidies
 pensions = good_pensions 
 school_reforms = no_schools
 
+#New Reforms
+conscription = no_draft
+
 # Technologies
 post_napoleonic_thought = 1
 flintlock_rifles = 1

@@ -26,6 +26,9 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+#New Reforms
+conscription = no_draft
+
 ruling_party = MCK_conservative
 last_election = 1834.1.1
 upper_house = {

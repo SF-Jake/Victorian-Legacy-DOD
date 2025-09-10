@@ -27,6 +27,9 @@ unemployment_subsidies = no_subsidies
 pensions = trinket_pensions 
 school_reforms = no_schools
 
+#New Reforms
+conscription = no_draft
+
 ruling_party = ROM_liberal
 upper_house = {
 	fascist = 0

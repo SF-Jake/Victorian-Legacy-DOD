@@ -33,6 +33,9 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+#New Reforms
+conscription = no_draft
+
 ruling_party = USA_conservative
 last_election = 1828.12.3
 upper_house = {
