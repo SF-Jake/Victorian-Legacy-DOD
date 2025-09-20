@@ -85,7 +85,7 @@ navy_row_completion2 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	navy_base = { maximum_speed = 1 }
+	navy_base = { maximum_speed = 2 }
 	
 	ai_chance = {
 		factor = 0
@@ -96,7 +96,7 @@ navy_row_completion3 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	navy_base = { maximum_speed = 1 }
+	navy_base = { maximum_speed = 2 }
 	
 	ai_chance = {
 		factor = 0
@@ -107,7 +107,7 @@ navy_row_completion4 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	navy_base = { maximum_speed = 1 }
+	navy_base = { hull = 2 }
 	
 	ai_chance = {
 		factor = 0
@@ -118,7 +118,7 @@ navy_row_completion5 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	navy_base = { maximum_speed = 1 }
+	navy_base = { hull = 2 }
 	
 	ai_chance = {
 		factor = 0
@@ -129,7 +129,7 @@ navy_row_completion6 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	navy_base = { maximum_speed = 1 }
+	navy_base = { evasion = 0.05 }
 	
 	ai_chance = {
 		factor = 0

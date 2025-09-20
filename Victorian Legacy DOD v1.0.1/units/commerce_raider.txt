@@ -15,7 +15,7 @@ commerce_raider = {
 	priority = 15
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 6
+	maximum_speed = 7
 	weighted_value = 5.0
 	can_build_overseas = yes
 
@@ -40,9 +40,9 @@ commerce_raider = {
 	}
 	
 	#Naval Abilties
-	hull = 10
-	gun_power = 10
-	fire_range = 0.5
+	hull = 11
+	gun_power = 11
+	fire_range = 0.55
 	evasion = 0
 	torpedo_attack = 0
 }

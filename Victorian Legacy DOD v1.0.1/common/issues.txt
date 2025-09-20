@@ -822,6 +822,7 @@ economic_reforms = {
 					set_country_flag = landr_flag
 					activate_technology = mechanized_mining
 					activate_technology = water_wheel_power
+					set_country_flag = landr_flag
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -841,7 +842,7 @@ economic_reforms = {
 		}
 		land_reform_two = {
 			technology_cost = 4000
-			civilization_progress_modifier = 0.05
+			civilization_progress_modifier = 0.10
 			
 			allow = {
 				NOT = { has_country_flag = ghostland }
@@ -851,7 +852,8 @@ economic_reforms = {
 				effect = {
 					set_country_flag = landr2_flag
 					activate_technology = freedom_of_trade
-					activate_technology = practical_steam_engine					
+					activate_technology = practical_steam_engine
+					set_country_flag = landr2_flag					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -887,6 +889,7 @@ economic_reforms = {
 				effect = {
 					set_country_flag = adm_flag
 					activate_technology = no_standard
+					set_country_flag = adm_flag
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -906,7 +909,7 @@ economic_reforms = {
 		}
 		admin_reform_two = { #new
 			technology_cost = 4000
-			civilization_progress_modifier = 0.05
+			civilization_progress_modifier = 0.10
 			
 			allow = {
 				NOT = { has_country_flag = ghostland }
@@ -916,6 +919,7 @@ economic_reforms = {
 				effect = {
 					set_country_flag = adm2_flag
 					activate_technology = ad_hoc_money_bill_printing
+					set_country_flag = adm2_flag
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -953,6 +957,7 @@ economic_reforms = {
 				effect = {
 					set_country_flag = fref_flag
 					activate_technology = private_banks
+					set_country_flag = fref_flag
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -972,7 +977,7 @@ economic_reforms = {
 		}
 		finance_reform_two = {
 			technology_cost = 4000
-			civilization_progress_modifier = 0.05 #was 0.35
+			civilization_progress_modifier = 0.10 #was 0.35
 			
 			max_loan_modifier = -0.2 # 80% loans
 			
@@ -984,7 +989,7 @@ economic_reforms = {
 				effect = {
 					set_country_flag = fref2_flag
 					activate_technology = stock_exchange
-					activate_technology = early_classical_theory_and_critique
+					set_country_flag = fref2_flag
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1022,6 +1027,7 @@ economic_reforms = {
 				effect = {
 					set_country_flag = edu_flag
 					activate_technology = malthusian_thought
+					set_country_flag = edu_flag
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1042,7 +1048,7 @@ economic_reforms = {
 		education_reform_two = { #new
 			technology_cost = 4000
 			education_efficiency_modifier = 0.10
-			civilization_progress_modifier = 0.05
+			civilization_progress_modifier = 0.10
 			
 			allow = {
 				NOT = { has_country_flag = ghostland }
@@ -1053,6 +1059,7 @@ economic_reforms = {
 					set_country_flag = edu2_flag
 					activate_technology = positivism
 					activate_technology = enlightenment_thought
+					set_country_flag = edu2_flag
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1123,7 +1130,7 @@ economic_reforms = {
 			technology_cost = 4000
 			farm_rgo_eff = 0.40
 			mine_rgo_eff = 0.40
-			civilization_progress_modifier = 0.05
+			civilization_progress_modifier = 0.10
 			
 			allow = {
 				NOT = { has_country_flag = ghostland }
@@ -1193,7 +1200,7 @@ economic_reforms = {
 		}
 		yes_industrial_construction = { #was in own category
 			technology_cost = 4000
-			civilization_progress_modifier = 0.05
+			civilization_progress_modifier = 0.10
 			
 			allow = {
 				NOT = { has_country_flag = ghostland }
@@ -1261,7 +1268,7 @@ economic_reforms = {
 		}
 		western_science_two = {
 			technology_cost = 4000
-			civilization_progress_modifier = 0.05
+			civilization_progress_modifier = 0.10
 			
 			allow = {
 				NOT = { has_country_flag = ghostland }
@@ -1301,7 +1308,7 @@ military_reforms = {
 			technology_cost = 4000 #was 8000
 			#unit stats improve
 			land_organisation = 0.1
-			civilization_progress_modifier = 0.05
+			civilization_progress_modifier = 0.1
 			research_points_on_conquer = 0.05 #0.25
 
 			allow = {
@@ -1338,7 +1345,7 @@ military_reforms = {
 		yes_foreign_weapons = {
 			land_defense_modifier = 0.1
 			technology_cost = 4000 #was 10000
-			civilization_progress_modifier = 0.05 #was 0.10
+			civilization_progress_modifier = 0.1 #was 0.10
 			research_points_on_conquer = 0.05 #0.25
 
 			allow = {
@@ -1374,7 +1381,7 @@ military_reforms = {
 		}
 		yes_military_constructions = {
 			technology_cost = 4000 #10000
-			civilization_progress_modifier = 0.05
+			civilization_progress_modifier = 0.1
 			
 			allow = {
 				NOT = { has_country_flag = ghostland }
@@ -1411,7 +1418,7 @@ military_reforms = {
 		yes_foreign_officers = {
 			leadership_modifier = 0.10
 			technology_cost = 4000 #was 10000
-			civilization_progress_modifier = 0.05 #was 0.10
+			civilization_progress_modifier = 0.1 #was 0.10
 			research_points_on_conquer = 0.10 #was 0.25
 			
 			allow = {
@@ -1448,7 +1455,7 @@ military_reforms = {
 		yes_army_schools = {
 			land_unit_start_experience = 10
 			technology_cost = 4000 #was 10000
-			civilization_progress_modifier = 0.05 #was 0.10
+			civilization_progress_modifier = 0.1 #was 0.10
 		
 			allow = {
 				NOT = { has_country_flag = ghostland }
@@ -1484,7 +1491,7 @@ military_reforms = {
 		yes_foreign_naval_officers = {
 			tariff_efficiency_modifier = 0.10 #was 0.20
 			technology_cost = 4000 #was 10000
-			civilization_progress_modifier = 0.05 #was 0.10
+			civilization_progress_modifier = 0.1 #was 0.10
 			research_points_on_conquer = 0.05 #new
 			
 			allow = {
@@ -1523,7 +1530,7 @@ military_reforms = {
 			naval_attack_modifier = 0.2
 			naval_defense_modifier = 0.2
 			technology_cost = 4000 #10000
-			civilization_progress_modifier = 0.05 #was 0.10
+			civilization_progress_modifier = 0.1 #was 0.10
 			research_points_on_conquer = 0.05 #new
 			
 			allow = {
@@ -1561,7 +1568,7 @@ military_reforms = {
 		yes_naval_schools = {
 			naval_unit_start_experience = 10
 			technology_cost = 4000 #was 10000
-			civilization_progress_modifier = 0.05 #was 0.10
+			civilization_progress_modifier = 0.1 #was 0.10
 			
 			allow = {
 				NOT = { has_country_flag = ghostland }
@@ -1569,6 +1576,8 @@ military_reforms = {
 			
 			on_execute = {
 				effect = {
+					set_country_flag = ns_flag
+					activate_technology = the_command_principle
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
